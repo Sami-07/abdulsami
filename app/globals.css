@@ -16,9 +16,7 @@ body {
   cursor: pointer;
   transition: ease-in-out 300ms;
 }
-body {
-  background:#0b1d2a;
-}
+
 
 .arrows {
 	width: 60px;
