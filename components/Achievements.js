@@ -14,7 +14,7 @@ function Achievements() {
                             <div className="w-full  lg:w-1/2 mt-5">
                                 <h1  className="text-2xl md:text-4xl mb-3 ">{achievement.title}</h1>
                                 <p className="mb-3"><span className="underline decoration-myprimecolor underline-offset-4">{achievement.organiser}</span> - {achievement.date}</p>
-                                <ul className="text-sm md:text-xl list-disc">
+                                <ul className="text-b\ md:text-xl list-disc">
                                     {achievement.points.map(point => {
                                         return (
                                             <li key={point} className="mb-3">{point}</li>

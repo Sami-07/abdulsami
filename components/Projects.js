@@ -30,7 +30,7 @@ function Projects() {
                             </div>
                             <div  data-aos="fade-up" className="flex md:text-lg text-base text-left flex-col px-5   lg:w-1/2 mt-10 md:mt-0">
                                 <h1 className=" text-xl text-left  md:text-left md:mt-5  md:text-3xl mb-3 md:mb-0 ">{project.title}</h1>
-                                <p className="text-sm md:text-lg text-left">{project.desc}</p>
+                                <p className="text-base md:text-lg text-left">{project.desc}</p>
                                 <h3 className="text-base md:text-xl  mt-5">Tech <span className="underline decoration-myprimecolor underline-offset-4 decoration-4 rounded-lg">Stack</span>  Used:</h3>
                                 <div className="flex flex-wrap ">
                                     {project.techUsed.map((tech, index) => {
@@ -39,7 +39,7 @@ function Projects() {
 
                                         }
                                         return (
-                                            <p  data-aos="fade-up" key={tech} className="mr-1">{tech}</p>
+                                            <p  data-aos="fade-up" key={tech} className="mr-1 text-base">{tech}</p>
                                         )
                                     })}
                                 </div>
