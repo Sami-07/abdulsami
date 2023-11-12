@@ -7,14 +7,14 @@ function Achievements() {
         <div className="text-center mt-10 md:mt-20">
             <h1  data-aos="fade-up" className={`${worksans.className} text-3xl md:text-5xl`}>{"Achievements & Certifications"}<span className='text-5xl text-myprimecolor font-black ml-2'>.</span>
             </h1>
-            <div className="mt-6 md:mt-16 flex flex-col gap-10 md:gap-16 px-7">
+            <div className="mt-6 md:mt-16 flex flex-col gap-10 md:gap-16 px-2">
                 {achievements.map(achievement => {
                     return (
                         <div  data-aos="fade-up" key={achievement.title} className="flex items-center lg:items-start flex-col-reverse lg:flex-row justify-center text-left gap-0 lg:gap-8">
                             <div className="w-full  lg:w-1/2 mt-5">
                                 <h1  className="text-2xl md:text-4xl mb-3 ">{achievement.title}</h1>
                                 <p className="mb-3"><span className="underline decoration-myprimecolor underline-offset-4">{achievement.organiser}</span> - {achievement.date}</p>
-                                <ul className="text-b\ md:text-xl list-disc">
+                                <ul className="text-base md:text-xl list-disc">
                                     {achievement.points.map(point => {
                                         return (
                                             <li key={point} className="mb-3">{point}</li>

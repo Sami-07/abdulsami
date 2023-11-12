@@ -28,7 +28,7 @@ function Projects() {
                                     <Link  data-aos="fade-up" href={project.webapp} className='hover:-translate-y-2 ease-in-out transition hover:scale-105 flex  justify-center items-center  gap-2 bg-myprimecolor font-medium text-white  text-lg md:text-2xl p-2 rounded-md px-3'><HiExternalLink />Web App</Link>
                                 </div>
                             </div>
-                            <div  data-aos="fade-up" className="flex md:text-lg text-base text-left flex-col px-5   lg:w-1/2 mt-10 md:mt-0">
+                            <div  data-aos="fade-up" className="flex md:text-lg text-base text-left flex-col    lg:w-1/2 mt-10 md:mt-0">
                                 <h1 className=" text-xl text-left  md:text-left md:mt-5  md:text-3xl mb-3 md:mb-0 ">{project.title}</h1>
                                 <p className="text-base md:text-lg text-left">{project.desc}</p>
                                 <h3 className="text-base md:text-xl  mt-5">Tech <span className="underline decoration-myprimecolor underline-offset-4 decoration-4 rounded-lg">Stack</span>  Used:</h3>
