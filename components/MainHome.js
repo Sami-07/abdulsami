@@ -12,7 +12,7 @@ export default function MainHome() {
         <div className='relative'>
             <Image src={"/images/homepagebg.jpg"} width={2000} height={2000} className='h-screen w-full' alt='homebg' />
             <div className='flex justify-center'>
-                <div data-aos="zoom-in" className='absolute top-[30vh] md:top-[40vh] flex flex-col gap-5 justify-center items-center text-black'>
+                <div data-aos="zoom-in" className='absolute top-[30vh] md:top-[35vh] flex flex-col gap-5 justify-center items-center text-black'>
                     <p  className={`md:text-7xl text-6xl ${impscript.className}`}>Hello!</p>
                     <h1  className={`text-center text-5xl md:text-6xl`} >I am <span className={`${worksans.className}`}>Shaikh Abdul Sami</span><span  className='text-4xl md:text-5xl text-myprimecolor font-black ml-2'>.</span></h1>
                     <p  className={`text-xl md:text-4xl text-center`}>I develop <br className='md:hidden' /> <span className='border-2 rounded-lg px-2 border-myprimecolor'> Full Stack Web Applications</span></p>
