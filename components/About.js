@@ -20,7 +20,7 @@ function About() {
                 <div className="mt-10 grid grid-cols-2 md:grid-cols-7 gap-5 md:gap-10 px-12 ">
                     {tech.map((eachTech, index) => {
                         return (
-                            <div data-aos={index % 2 == 0 ? "fade-right" : "fade-left"} key={eachTech.name} className="hover:-translate-y-2 ease-in-out transition hover:scale-125 duration-200 flex flex-col justify-center items-center gap-2">
+                            <div data-aos="zoom-in" key={eachTech.name} className="hover:-translate-y-2 ease-in-out transition hover:scale-125 duration-200 flex flex-col justify-center items-center gap-2">
                                 <Image   className="hidden md:block" src={eachTech.icon} width={100} height={100} alt="techicon" />
                                 <Image className="w-16 h-16 md:hidden" src={eachTech.icon} width={100} height={100} alt="techicon" />
                                 <p  >{eachTech.name}</p>

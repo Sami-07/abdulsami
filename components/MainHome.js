@@ -12,12 +12,12 @@ export default function MainHome() {
         <div className='relative'>
             <Image src={"/images/homepagebg.jpg"} width={2000} height={2000} className='h-screen w-full' alt='homebg' />
             <div className='flex justify-center'>
-                <div className='absolute top-[30vh] md:top-[40vh] flex flex-col gap-5 justify-center items-center text-black'>
-                    <p data-aos="fade-up" className={`md:text-7xl text-6xl ${impscript.className}`}>Hello!</p>
-                    <h1 data-aos="fade-up" className={`text-center text-5xl md:text-6xl`} >I am <span className={`${worksans.className}`}>Shaikh Abdul Sami</span><span data-aos="fade-up" className='text-4xl md:text-5xl text-myprimecolor font-black ml-2'>.</span></h1>
-                    <p data-aos="fade-up" className={`text-xl md:text-4xl text-center`}>I develop <br className='md:hidden' /> <span className='border-2 rounded-lg px-2 border-myprimecolor'> Full Stack Web Applications</span></p>
-                    <div data-aos="fade-up" className='flex gap-5 flex-col md:flex-row'>
-                        <a href='#projects' className='hover:-translate-y-2 ease-in-out transition hover:scale-105 flex  justify-center items-center  gap-2 bg-myprimecolor  text-white text-lg md:text-2xl p-2 rounded-md px-3'><BsGrid />My Projects</a>
+                <div data-aos="zoom-in" className='absolute top-[30vh] md:top-[40vh] flex flex-col gap-5 justify-center items-center text-black'>
+                    <p  className={`md:text-7xl text-6xl ${impscript.className}`}>Hello!</p>
+                    <h1  className={`text-center text-5xl md:text-6xl`} >I am <span className={`${worksans.className}`}>Shaikh Abdul Sami</span><span  className='text-4xl md:text-5xl text-myprimecolor font-black ml-2'>.</span></h1>
+                    <p  className={`text-xl md:text-4xl text-center`}>I develop <br className='md:hidden' /> <span className='border-2 rounded-lg px-2 border-myprimecolor'> Full Stack Web Applications</span></p>
+                    <div  className='flex gap-5 flex-col md:flex-row'>
+                        <a  href='#projects' className='hover:-translate-y-2 ease-in-out transition hover:scale-105 flex  justify-center items-center  gap-2 bg-myprimecolor  text-white text-lg md:text-2xl p-2 rounded-md px-3'><BsGrid />My Projects</a>
                         <a href="Resume.pdf" target="_blank" rel="noopener noreferrer"
                             download="Abdul Sami's Resume" className='hover:-translate-y-2 ease-in-out transition hover:scale-105 flex  justify-center items-center  gap-2 bg-myprimecolor  text-white text-lg md:text-2xl p-2 rounded-md px-3'><BsDownload />Download Resume</a>
                     </div>

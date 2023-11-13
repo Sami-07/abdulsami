@@ -24,8 +24,8 @@ function Projects() {
                                     <Image src={"/images/lappy.png"} className="w-[380px] max-w-[1000px]" width={600} height={600} alt="laptop" />
                                 </div>
                                 <div className='flex justify-center items-center gap-5'>
-                                    <Link  data-aos="fade-right" href={project.github} className='hover:-translate-y-2 ease-in-out transition hover:scale-105 flex  justify-center items-center  gap-2  bg-white text-black font-medium text-lg md:text-2xl p-2 rounded-md px-3'><AiOutlineGithub />Repository</Link>
-                                    <Link  data-aos="fade-left" href={project.webapp} className='hover:-translate-y-2 ease-in-out transition hover:scale-105 flex  justify-center items-center  gap-2 bg-myprimecolor font-medium text-white  text-lg md:text-2xl p-2 rounded-md px-3'><HiExternalLink />Web App</Link>
+                                    <Link  data-aos="fade-up" href={project.github} className='hover:-translate-y-2 ease-in-out transition hover:scale-105 flex  justify-center items-center  gap-2  bg-white text-black font-medium text-lg md:text-2xl p-2 rounded-md px-3'><AiOutlineGithub />Repository</Link>
+                                    <Link  data-aos="fade-up" href={project.webapp} className='hover:-translate-y-2 ease-in-out transition hover:scale-105 flex  justify-center items-center  gap-2 bg-myprimecolor font-medium text-white  text-lg md:text-2xl p-2 rounded-md px-3'><HiExternalLink />Web App</Link>
                                 </div>
                             </div>
                             <div  data-aos="fade-up" className="flex md:text-lg text-base text-left flex-col    lg:w-1/2 mt-10 md:mt-0">
