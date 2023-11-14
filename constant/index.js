@@ -19,7 +19,7 @@ import codeburst from "@/public/images/codeburst.jpg"
 import NPTELpython from "@/public/images/NPTELpython.jpeg"
 import forge from "@/public/images/forge.png"
 import AICTE from "@/public/images/AICTE.jpg"
-
+import portfolioHomePage from "@/public/images/portfolioHomePage.png"
 const worksans = Work_Sans({ subsets: ['latin'], weight: ["500"] })
 
 const aboutData = "I am a skilled Full Stack Web Developer with expertise in various trending technologies such as React.js, Next.js, MongoDB, etc. I have built projects which showcases the skillset I have in these technologies. I am really good in adapting to the various technological trends and working with the latest technologies. I am open to work as a freelance web developer and help you start or boost your online business with the help of tech."
@@ -98,12 +98,12 @@ const projects = [
         webapp: "https://chaikathela7.web.app/"
     },
     {
-        thumbnail: ahs,
-        title: "Legal Portfolio Website",
-        desc: "This is a Legal Portfolio Website build using Nextjs. This website is SEO optimized as this is built using Next.js server-side rendering. This professional Website displays info. and all the services offered by the lawyer with a Contact Section integrated with Nodemailer for mail service.",
-        techUsed: ["Next.js", "CSS"],
-        github: "https://github.com/Sami-07/ahslegalservices",
-        webapp: "https://ahslegalservices.vercel.app/"
+        thumbnail: portfolioHomePage,
+        title: "Personal Portfolio Website",
+        desc: "This is my Portfolio Website built using Nextjs and Tailwind. This website is SEO optimized as this is built using Next.js server-side rendering. This Professional Portfolio Website displays all the info. ,projects and Achievements with a Contact Section integrated with Nodemailer for mail service.",
+        techUsed: ["Next.js", "Tailwind"],
+        github: "https://github.com/Sami-07/abdulsami",
+        webapp: "https://abdulsami-sami-07.vercel.app/"
     },
 ]
 const achievements = [
