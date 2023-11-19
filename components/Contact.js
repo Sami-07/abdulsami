@@ -45,24 +45,13 @@ function Contact() {
             setLoading(false);
         }
 
-
-
-
-
-
-
-
-
-
-
-
     };
     return (
 
         <div className="text-center mt-5">
             <h1  data-aos="fade-up" className={`${worksans.className} text-3xl md:text-5xl`}>Contact<span className='text-5xl text-myprimecolor font-black ml-2'>.</span>
             </h1>
-            <div  data-aos="fade-up" className="bg-myprimecolor h-fit md:w-2/3 mx-5 md:mx-auto pt-20 pb-10 rounded-xl mt-10">
+            <div  className="bg-myprimecolor h-fit md:w-2/3 mx-5 md:mx-auto pt-20 pb-10 rounded-xl mt-10">
                 <form onSubmit={(e) => handleSubmit(e)} className="flex flex-col gap-10 justify-center">
                     <label htmlFor="name" className="flex px-5 md:px-0 flex-col md:flex-row justify-center md:items-center gap-0 md:gap-5">
                         <span className="text-base md:text-xl w-14 md:w-20">Name</span>
