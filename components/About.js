@@ -21,9 +21,9 @@ function About() {
                     {tech.map((eachTech, index) => {
                         return (
                             <div data-aos="zoom-in" key={eachTech.name} className="hover:-translate-y-2 ease-in-out transition hover:scale-125 duration-200 flex flex-col justify-center items-center gap-2">
-                                <Image   className="hidden md:block" src={eachTech.icon} width={100} height={100} alt="techicon" />
-                                <Image className="w-16 h-16 md:hidden" src={eachTech.icon} width={100} height={100} alt="techicon" />
-                                <p  >{eachTech.name}</p>
+                                <Image   className="hidden md:block hover:-translate-y-2 ease-in-out transition hover:scale-110" src={eachTech.icon} width={100} height={100} alt="techicon" />
+                                <Image className="w-16 h-16 md:hidden hover:-translate-y-2 ease-in-out transition hover:scale-110" src={eachTech.icon} width={100} height={100} alt="techicon" />
+                                <p  className="">{eachTech.name}</p>
                             </div>
                         )
                     })}
