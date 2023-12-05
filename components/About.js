@@ -6,8 +6,6 @@ import { worksans } from "@/constant"
 function About() {
     return (
         <div>
-
-
             <div className="text-center mt-10 md:mt-20 ">
                 <h1 data-aos="fade-up" className={`${worksans.className} text-3xl md:text-5xl`}>ABOUT ME<span className='text-5xl text-myprimecolor font-black ml-2'>.</span>
                 </h1>
