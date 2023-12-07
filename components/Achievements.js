@@ -7,7 +7,7 @@ function Achievements() {
         <div className="text-center mt-10 md:mt-20">
             <h1  data-aos="fade-up" className={`${worksans.className} text-3xl md:text-5xl`}>{"Achievements & Certifications"}<span className='text-5xl text-myprimecolor font-black ml-2'>.</span>
             </h1>
-            <div data-aos="fade-up" className="mt-6 md:mt-16 flex flex-col gap-10 md:gap-16 px-2">
+            <div  className="mt-6 md:mt-16 flex flex-col gap-10 md:gap-16 px-2">
                 {achievements.map(achievement => {
                     return (
                         <div key={achievement.title} className="flex items-center lg:items-start flex-col-reverse lg:flex-row justify-center text-left gap-0 lg:gap-8">
