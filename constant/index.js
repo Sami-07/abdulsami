@@ -109,7 +109,7 @@ const projects = [
 const achievements = [
 
     {
-        title: "Runners up of Code Burst Hackathon",
+        title: "Placed 1st in Code Burst Hackathon",
         organiser: "Sreyas Institute of Engg. & Tech.",
         date: "October 2023",
         points: ["Code Burst is a Coding Contest Organised at Sreyas Institute of Engineering and Technology.", "Me and my Team were Runners up for this Hackathon."],
