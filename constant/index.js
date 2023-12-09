@@ -112,7 +112,7 @@ const achievements = [
         title: "Placed 1st in Code Burst Hackathon",
         organiser: "Sreyas Institute of Engg. & Tech.",
         date: "October 2023",
-        points: ["Code Burst is a Coding Contest Organised at Sreyas Institute of Engineering and Technology.", "Me and my Team were Runners up for this Hackathon."],
+        points: ["Code Burst is a Coding Contest Organised at Sreyas Institute of Engineering and Technology.", "Me and my Team showcased our problem solving skills to come up with the optimal solutions to the problem statements."],
         img: codeburst
 
     },
@@ -125,10 +125,10 @@ const achievements = [
 
     },
     {
-        title: "Code-a-Thon 2nd Runners up",
+        title: "Placed Third in Code-a-Thon",
         organiser: "Forge Alumnus",
         date: "March 2023",
-        points: ["Code-a-Thon is a Technical Contest for Web Development hosted at our College by FORGE Alumnus.", "I was responsible for building the front-end of the website using EJS, CSS, JavaScript & Bootstrap", "We were the 2nd Runners up in this Code-a-Thon."],
+        points: ["Code-a-Thon is a Technical Contest for Web Development hosted at our College by FORGE Alumnus.", "I was responsible for building the front-end of the website using EJS, CSS, JavaScript & Bootstrap", "We were placed third in this Code-a-Thon."],
         img: forge
 
     },
